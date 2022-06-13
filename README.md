@@ -9,12 +9,14 @@ The data set includes 1067 theater play kickstarter campaigns with goals ranging
 **Success by Launch Date**
 
 Once the theater play data was broken out by the success of the kickstarter we were able to create a pivot table to easily show how many kickstarters were successful, failed, or were canceled by the date the campaign was launched. This data is demonstrated below using a line graph which shows that the month with the highest number of successful campaigns was May and the month with the lowest number of successful campaigns was December. 
-![This is an image](![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/107161421/173260505-f82ad016-b050-4851-9e16-b42a6a8b1ac7.png)
+
+(![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/107161421/173260505-f82ad016-b050-4851-9e16-b42a6a8b1ac7.png)
 
 **Success by Goals**
 
 Using the COUNTIFS function in excel we were able to break out the number of succesful, failed, and canceled theater play kickstarters based on their fundraising goals. The highest percentage of successful campaigns were those with goals under $1000 coming in with a 75.81% success rate (141/186 campaigns). The $1000 to $4999 goal category came in at a close second with a 72.66% success rate (388/534 campaigns). This analysis for each goal category up to $50,000+ is demonstrated using the line graph below.
-![This is an image](![Outcomes_vs_Goals](https://user-images.githubusercontent.com/107161421/173261132-a296a287-c6f6-44e8-87c7-703d3d77c8b0.png)
+
+(![Outcomes_vs_Goals](https://user-images.githubusercontent.com/107161421/173261132-a296a287-c6f6-44e8-87c7-703d3d77c8b0.png)
 
 ## Summary of Results
 The analysis in the Outcomes by Lauch Date table show that historically the best dates to launch to launch a successful theater play kickstarter would be in May or June as those months had the top two totals of successful campaigns; 111 and 100 campaigns respectfully. This works out to a 67% success rate for kickstarter campaigns launchedin May and a 65% success rate for June campaigns. This analysis also shows it would be the least likely to have a successful campaign that is launched in December as this is the month with the fewest successful kickstarters (only 37 total successful campaigns, a 17 point drop from the next lowest month of November) and a success rate of only 49%. The analysis in the Outcomes Based on Goal table also shows the best chance of lauching a successful campaign is to keep the fundraising goal under $1000 although a campaign with a goal in the $1000 to $4999 range would only have a 3% less chance of being sucessful. 
